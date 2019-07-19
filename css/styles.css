@@ -158,10 +158,9 @@ span.slick-lightbox-slick-caption {
 
   .slides {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-  }
+    flex-direction: row;
+    margin-top: 20px;
 
   .slide {
     display: inline-block;
