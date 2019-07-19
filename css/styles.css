@@ -124,7 +124,7 @@ img {
 }
 
 span.slick-lightbox-slick-caption {
-  display: none;
+  display: block;
 }
 
 .slick-lightbox-slick-caption {
@@ -161,6 +161,7 @@ span.slick-lightbox-slick-caption {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 20px;
+  }
 
   .slide {
     display: inline-block;

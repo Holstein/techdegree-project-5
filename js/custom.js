@@ -24,7 +24,23 @@ $('.slides').slick({
   speed: 320,
   responsive: [
     {
+      breakpoint: 1280,
+      settings: {
+        slidesPerRow: 3,
+        rows: 12,
+        infinite: true,
+      }
+    },
+    {
       breakpoint: 768,
+      settings: {
+        slidesPerRow: 2,
+        rows: 12,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 640,
       settings: {
         slidesPerRow: 1,
         rows: 12,
